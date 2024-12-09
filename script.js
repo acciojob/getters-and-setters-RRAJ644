@@ -11,7 +11,7 @@ class Person {
 
 	set age(newAge){
 		if (newAge > 0) {
-			this.age = age
+			this.age = newAge
 		}
 		else{
 			console.error('Age must be a positive number.');
